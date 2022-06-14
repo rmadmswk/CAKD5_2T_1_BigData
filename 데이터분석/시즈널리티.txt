@@ -1,0 +1,28 @@
+create table s_pur_copy as
+select * from purprod;
+
+select * from s_pur_copy;
+
+update s_pur_copy set 구매금액 = 구매금액/1.01620302175834
+where 구매일자 between 20140101 and 20140331; --3,217,669
+
+update s_pur_copy set 구매금액 = 구매금액/0.970792475064181
+where 구매일자 between 20140401 and 20140630; --3,491,713개
+
+update s_pur_copy set 구매금액 = 구매금액/0.885105845713564
+where 구매일자 between 20140701 and 20140930; --3,563,754
+
+update s_pur_copy set 구매금액 = 구매금액/1.12760405706831
+where 구매일자 between 20141001 and 20141231; -- 3,598,378
+
+update s_pur_copy set 구매금액 = 구매금액/0.988770710623332
+where 구매일자 between 20150101 and 20150331; --3,619,223
+
+update s_pur_copy set 구매금액 = 구매금액/0.932539514386203
+where 구매일자 between 20150401 and 20150630;  --3,854,875
+
+update s_pur_copy set 구매금액 = 구매금액/0.88791897961778
+where 구매일자 between 20150701 and 20150930;  --3,795,633
+
+update s_pur_copy set 구매금액 = 구매금액/1.2103055214204
+where 구매일자 between 20151001 and 20151231; --
