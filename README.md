@@ -9,4 +9,4 @@
 - 변수설정 및 모델링
 - 출력된 값을 군집화하여 해결방안 제시
 - 자동 추천 시스템 제작
-[구매감소고객 예측모델을 통한 마케팅 (1).pdf](https://github.com/rmadmswk/CAKD5_2T_1_BigData/files/8986352/1.pdf)
+
